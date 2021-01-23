@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Flower Gallery</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Flower Gallery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+
+            <label for="speed-range" class="form-label">Speed (s)</label>
+            <input type="range" class="form-range" min="1" max="5" step="0.5" id="speed-range">
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
+        <div class="col-sm-4">
+            <div id="flower-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img
+                                src="https://images.wallpaperscraft.com/image/hydrangea_flower_autumn_dry_113504_800x600.jpg"
+                                class="d-block w-100"
+                                alt="Hydragea flower autumn">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img
+                                src="https://cdn.wallpapersafari.com/39/92/KY6AlV.jpg"
+                                class="d-block w-100"
+                                alt="Above the sky">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img
+                                src="https://a-static.besthdwallpaper.com/blue-asters-autumn-flower-wallpaper-800x600-53874_17.jpg"
+                                class="d-block w-100"
+                                alt="Blue Asters">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="btn-group" role="group" aria-label="Weather switcher">
+                    <button type="button" class="btn btn-outline-primary" data-weather="autumn">Autumns</button>
+                    <button type="button" class="btn btn-outline-primary" data-weather="spring">Spring</button>
+                    <button type="button" class="btn btn-outline-primary" data-weather="summer">Summer</button>
+                </div>
+            </div>
+            <div>
+                <h1>Flower Gallery</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ultricies sapien. Aliquam imperdiet, nunc ut pellentesque fermentum, ipsum felis condimentum arcu, id tempor lectus metus eu velit. Suspendisse potenti. Suspendisse iaculis viverra quam ut vulputate. Praesent fermentum, sapien sed congue tincidunt, lacus sapien blandit turpis, nec tincidunt eros ex non ipsum. Ut eget blandit nisi. Donec non placerat lorem, sed tempor diam. Integer lacinia non enim sed dignissim. Sed posuere tellus in mauris tristique, ut finibus enim maximus. Integer sit amet sem eu nibh dictum semper. Sed dictum nisl interdum egestas maximus.
+
+                    Donec ac tristique neque, vel ultrices enim. Curabitur aliquam et ex vel commodo. Suspendisse eu aliquam dui, at cursus magna. Fusce tincidunt diam et sapien laoreet, non venenatis tortor luctus. Maecenas tincidunt, est in egestas imperdiet, risus est volutpat lacus, sit amet cursus orci nisl eget orci. Maecenas efficitur orci risus, ac dictum neque aliquam accumsan. Nulla eu ante sed lectus feugiat venenatis. Integer venenatis mattis justo nec pretium. Phasellus blandit diam convallis ante finibus pulvinar. Pellentesque feugiat, metus a porttitor dictum, velit nisl ultricies est, quis rutrum ligula odio faucibus sapien. Integer tristique, tortor vehicula consectetur gravida, velit est semper tellus, finibus congue risus augue vel est. Mauris mauris nisi, gravida in nulla sit amet, consequat dignissim lacus.
+                    
+                    Vestibulum vulputate dolor et dui ultricies, quis pellentesque risus aliquet. Nam aliquam ligula scelerisque nulla tempus aliquam. Suspendisse potenti. Donec lorem turpis, faucibus eget aliquet nec, volutpat sed odio. Nunc fermentum tempor risus non blandit. Morbi feugiat hendrerit hendrerit. Proin sagittis diam vitae odio scelerisque, in ultricies nisl feugiat. Suspendisse egestas ornare consequat. Aliquam erat volutpat.</p>
+            </div>
+        </div>
+        <div class="col-sm fixed-bottom bg-success d-block d-sm-none" >Ads here</div>
+        <div class="col-sm-6  bg-success d-block d-sm-block" >Ads here</div>
+    </div>
+</div>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<script src="./api.js"></script>
+
+<script>
+    // query speed-range input
+    function getSpeedRangeInput() {
+        return document.getElementById('speed-range');
+    }
+    // listen to speed-range input change
+    function listenToSpeedRangeChange(callbackFunction) {
+        document.addEventListener('change', function(event) {
+            callbackFunction(event.target.value);
+        });
+    }
+    // get value from event event.target.value
+    // get carousel-item
+    function getCarouselItem() {
+        return document.getElementsByClassName('carousel-item');
+    }
+    // change carousel data-bs-interval to event.target.value
+    function updateCarouselInterval(carouselItem, speedSec) {
+        carouselItem.setAttribute('data-bs-interval', secToMs(speedSec));
+    }
+
+    function secToMs(sec) {
+        return sec * 1000;
+    }
+
+    function onRangeValueChange(value) {
+        console.log('Range value change');
+        console.log(value);
+        const items = Array.from(getCarouselItem());
+        items.forEach(function(item) {
+            updateCarouselInterval(item, value);
+        })
+    }
+
+
+</script>
+
+<script>
+    const api = new API();
+    window.addEventListener('load', function() {
+        console.log('load');
+        listenToSpeedRangeChange(onRangeValueChange);
+        listenOnWeatherBtnClick();
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOM Content Loaded');
+    });
+
+
+    window.addEventListener('beforeunload', function() {
+        console.log('before unload')
+    });
+
+    const getFlowerCallback = function(response) {
+        const dataText = response.body;
+        const data = JSON.parse(dataText);
+        console.log(data);
+    };
+
+    function listenOnWeatherBtnClick() {
+        document.addEventListener('click', function(event) {
+            const selectedWeather = event.target.getAttribute('data-weather');
+            const getFlowerCallbackV5 = function(response) {
+                const dataText = response.body;
+                const data = JSON.parse(dataText);
+                const carouselItems = Array.from(document.querySelectorAll('.carousel-item > img'));
+                const weathers = api.getImageByWeather(selectedWeather, data);
+                carouselItems.forEach(function(item, index) {
+                    console.log({index, weather: weathers[index], item});
+                    item.setAttribute('src', weathers[index].src);
+                    item.setAttribute('alt', weathers[index].alt);
+                });
+            }
+            api.getFlowers(getFlowerCallbackV5);
+        });
+    }
+
+
+
+
+</script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+-->
+</body>
+</html>
